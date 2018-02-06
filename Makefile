@@ -1,5 +1,5 @@
 all:
-	cc -o cic cic_gen.c
+	cc -o cic cic_gen.c -lm
 	./cic
 
 clean:
